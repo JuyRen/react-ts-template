@@ -1,0 +1,3 @@
+{
+  "extends": ["@juyren/stylelint-config-less"]
+}

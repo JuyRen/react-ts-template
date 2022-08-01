@@ -1,0 +1,14 @@
+{
+  "cSpell.words": [
+    "antd",
+    "commitlint",
+    "commitlintrc",
+    "stylelint",
+    "stylelintrc"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 基于.prettierrc格式化文件，需要安装Prettier插件
+  "editor.formatOnSave": true
+}

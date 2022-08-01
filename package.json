@@ -1,0 +1,40 @@
+{
+  "name": "react-ts-template",
+  "version": "1.0.0",
+  "description": "webpack5 + react18 + typescript 搭建的开发框架",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuyRen/react-ts-template.git"
+  },
+  "author": "JuyRen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuyRen/react-ts-template/issues"
+  },
+  "homepage": "https://github.com/JuyRen/react-ts-template#readme",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write ."
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,tsx,ts,less,md,json}": [
+      "prettier --write"
+    ],
+    "src/**/*.{ts,tsx,js}": [
+      "eslint --config .eslintrc.json"
+    ],
+    "*.{css,less}": [
+      "stylelint --config .stylelintrc.json"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@juyren/eslint-config-react": "^1.0.1",
+    "@juyren/stylelint-config-less": "^1.0.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
+}
