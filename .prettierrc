@@ -15,7 +15,6 @@
   "trailingComma": "none",
   "tabWidth": 2,
   "useTabs": false,
-  "vueIndentScriptAndStyle": false,
   "overrides": [
     {
       "files": ["*.less"],
